@@ -5,7 +5,7 @@ import pickle
 CurrentBalance = pickle.load(open("Balance.dat", "rb"))
 
 print("How much would you like to deposit?")
-Deposit = int(input())
+Deposit = float(input())
 
 Goal = 950
 TotalBalance = CurrentBalance + Deposit
